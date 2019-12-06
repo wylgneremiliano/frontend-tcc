@@ -1,0 +1,25 @@
+ul.cities-list {
+    width: 30%;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 10px;
+    margin-bottom: 30px;
+}
+
+ul.cities-list li {
+    display: flex;
+    flex-direction: column;
+}
+
+ul.cities-list li strong {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #444;
+}
+
+ul.cities-list li span {
+    font-size: 11px;
+    color: #999;
+}
+
